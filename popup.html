@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Slider</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Pomodoro Slider</h1>
+
+    <!-- Timer Display -->
+    <div class="timer-display">
+      <div id="time-left">25:00</div>
+      <div id="current-mode">Ready</div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="pause" disabled>Pause</button>
+      <button id="reset" disabled>Reset</button>
+    </div>
+
+    <!--Custom Sessions-->
+    <div class="sessions-section">
+        <h2>Your Sessions</h2>
+        <ul id="sessions-list">
+            <!-- populated by JS -->
+        </ul> 
+        
+              <!-- Add new session form -->
+      <form id="add-session-form">
+        <input type="text" id="session-title" placeholder="e.g. Deep Work - Thesis" required>
+        <input type="number" id="session-minutes" placeholder="Minutes" min="1" max="120" value="25" required>
+        <div class="type-radio">
+          <label><input type="radio" name="type" value="work" checked> Work</label>
+          <label><input type="radio" name="type" value="break"> Break</label>
+        </div>
+        <button type="submit">Add Session</button>
+      </form>
+    </div>
+
+    </div>
+    
+<script src="popup.js"></script>
+</body>
+</html>
