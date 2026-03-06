@@ -1,5 +1,6 @@
 # Chrome extension build artifacts
 *.crx
 *.pem
+*.zip
 builds/
 dist/

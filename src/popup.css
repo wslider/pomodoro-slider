@@ -8,9 +8,11 @@ body {
   font-family: system-ui, sans-serif;
   background: #0f0f0f;
   color: #e0e0e0;
-  width: 360px;
+  width: 640px;
+  height: 440px; 
   padding: 16px;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .container {

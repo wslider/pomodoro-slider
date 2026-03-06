@@ -10,4 +10,4 @@ Enter The Portal
 - add and delete your custom sessions
 - change the durration of your sessions 
     - enter in a custom time in minutes
-    - or use the dynamic slider
+    - or use the dynamic slider (version 2)
